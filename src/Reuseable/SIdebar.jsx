@@ -148,7 +148,7 @@ const Sidebar = () => {
                 <div className="flex items-center justify-between ml-4">
                     {isOpen ? (
                         <>
-                            <h2 className="text-2xl font-bold text-black text-left">LOGO</h2>
+                            <h2 className="text-2xl font-medium text-black text-left mt-[42px] ml-8">LOGO</h2>
                             <AiOutlineArrowLeft
                                 className="cursor-pointer text-2xl"
                                 onClick={toggleSidebar}
@@ -174,7 +174,7 @@ const Sidebar = () => {
                 >
                     <MdDashboard className="text-xl" />
                     <span
-                        className={`font-poppins text-base ${isOpen ? 'block' : 'hidden'}`}
+                        className={`font-poppins font-normal text-custom-18 ${isOpen ? 'block' : 'hidden'}`}
                     >
                         Dashboard
                     </span>
@@ -188,7 +188,7 @@ const Sidebar = () => {
                 >
                     <IoMdPerson className="text-xl" />
                     <span
-                        className={`font-poppins text-base ${isOpen ? 'block' : 'hidden'}`}
+                        className={`font-poppins font-normal text-custom-18 ${isOpen ? 'block' : 'hidden'}`}
                     >
                         Employees
                     </span>
@@ -202,7 +202,7 @@ const Sidebar = () => {
                 >
                     <BsPostcard className="text-xl" />
                     <span
-                        className={`font-poppins text-base ${isOpen ? 'block' : 'hidden'}`}
+                        className={`font-poppins font-normal text-custom-18 ${isOpen ? 'block' : 'hidden'}`}
                     >
                         Story boards
                     </span>
@@ -215,7 +215,7 @@ const Sidebar = () => {
                 >
                     <FaSearchengin className="text-xl" />
                     <span
-                        className={`font-poppins text-base ${isOpen ? 'block' : 'hidden'}`}
+                        className={`font-poppins font-normal text-custom-18 ${isOpen ? 'block' : 'hidden'}`}
                     >
                         Investigation
                     </span>
@@ -228,7 +228,7 @@ const Sidebar = () => {
                 >
                     <FaDatabase className="text-xl" />
                     <span
-                        className={`font-poppins text-base ${isOpen ? 'block' : 'hidden'}`}
+                        className={`font-poppins font-normal text-custom-18 ${isOpen ? 'block' : 'hidden'}`}
                     >
                         Complimentary Datasets
                     </span>
@@ -242,7 +242,7 @@ const Sidebar = () => {
                 >
                     <RiDashboardHorizontalLine className="text-xl" />
                     <span
-                        className={`font-poppins text-base ${isOpen ? 'block' : 'hidden'}`}
+                        className={`font-poppins font-normal text-custom-18 ${isOpen ? 'block' : 'hidden'}`}
                     >
                         Integrations
                     </span>
@@ -262,7 +262,7 @@ const Sidebar = () => {
                             alt="Profile"
                         />
                         <span
-                            className={`font-poppins text-base font-normal leading-[30px] text-center ml-7 ${
+                            className={`font-poppins text-custom-18 font-normal leading-[30px] text-center ml-7 ${
                                 isOpen ? 'block' : 'hidden'
                             }`}
                         >

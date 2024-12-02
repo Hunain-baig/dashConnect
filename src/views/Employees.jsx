@@ -195,7 +195,7 @@ function Employees() {
                      {error && <p className="text-red-500">{error}</p>} {/* Display error message */}
 
             <div className=" ml-4 mt-4">
-                <h1 className="text-2xl md:text-3xl font-bold mb-3  md:mb-4 max-sm   mobile:ml-11  ">Employees List</h1>
+                <h1 className="text-2xl md:text-3xl font-normal mb-3  md:mb-4 max-sm   mobile:ml-11  ">Employees List</h1>
 
                 <input
                     type="search"
